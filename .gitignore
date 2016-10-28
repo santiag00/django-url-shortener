@@ -1,0 +1,3 @@
+src/.idea
+src/db.sqlite3
+__pycache__/

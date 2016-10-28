@@ -1,0 +1,9 @@
+url-shortener:
+  container_name: url-shortener
+  restart: always
+  tty: true
+  build: .
+  ports:
+    - "8000:8000"
+  volumes:
+    - ./src/:/root/src
